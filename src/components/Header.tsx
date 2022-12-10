@@ -11,8 +11,7 @@ export function Header() {
         <Image 
           src={logo} 
           alt="icone do igneo studios" 
-          height={125}
-          width={175}
+          width={200}
         />
       </div>     
       <nav className="mt-5 text-white w-1/3 px-10 text-4xl">
