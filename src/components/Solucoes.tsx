@@ -31,7 +31,7 @@ export function Solucoes(){
       className="w-full flex flex-col items-center mt-96"
     >
       <h2 className="text-5xl text-white mb-14">Solucoes oferecidas</h2>
-      <div className="w-4/5 flex justify-between">
+      <div className="flex justify-between">
         {
           solucoesData.map((solucao:Solucao) =>{
             return(
@@ -48,7 +48,7 @@ export function Solucoes(){
                   />
                 </div>
                 <h3 className="text-4xl font-bold">{solucao.title}</h3>
-                <p className="text-xl text-left w-4/6">{solucao.text}</p>
+                <p className="text-xl text-left w-4/5">{solucao.text}</p>
               </div>
             );
           })
