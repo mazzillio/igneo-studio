@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Apresentacao } from "../components/Apresentacao";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
+import { Pacotes } from "../components/Pacotes";
 import { Solucoes } from "../components/Solucoes";
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
         <Header/>
         <Apresentacao />
         <Solucoes />
-
+        <Pacotes />
       </main>
       <Footer />
       
