@@ -1,38 +1,5 @@
-interface PacoteType{
-    title:string,
-    prazo:number,
-    preco:number,
-    parcela:string,
-    divulgacoes:number,
-    artes?:number
-}
+import { pacotes, PacoteType } from "../utils/pacotes";
 export function Pacotes() {
-  const pacotes:PacoteType[] =[
-    {
-      title:"Spark",
-      prazo:15,
-      preco:1250,
-      parcela:"208,33",
-      divulgacoes:1
-    },
-    {
-      title:"Flame",
-      prazo:20,
-      preco:1880,
-      parcela:"313,33",
-      divulgacoes:3,
-      artes:3  
-    },
-    {
-      title:"Eruption",
-      prazo:20,
-      preco:3720,
-      parcela:"620",
-      divulgacoes:5,
-      artes:5
-    },
-
-  ];
   return(
     <div className="flex flex-col items-center">
       <h2 className="text-4xl mb-16">Preços promocionais para pequenos negócios MEI e ME e profissionais liberais</h2>
