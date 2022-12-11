@@ -63,7 +63,7 @@ export function Pacotes() {
                     }
                   </ul>
                 </div>
-                <button className=" flex items-center justify-center text-xl font-semibold bg-primary-300 rounded-lg mx-auto h-11 w-[9rem]">Contratar</button>
+                <button className="flex items-center justify-center text-xl font-semibold bg-primary-300 rounded-lg mx-auto h-11 w-[9rem]">Contratar</button>
               </div>
             );
           })
