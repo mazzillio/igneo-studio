@@ -10,19 +10,19 @@ export function ListServices({ isHead }:PropsList) {
           className="hover:cursor-pointer hover:text-primary-300" 
           onClick={()=> redirect("sobre")}
         >
-            Sobre Nós
+          Sobre Nós
         </li>
         <li 
           className="hover:cursor-pointer hover:text-primary-300" 
           onClick={()=> redirect("servicos")}
         >
-            Serviços
+          Serviços
         </li>
         <li 
           className="hover:cursor-pointer hover:text-primary-300" 
           onClick={()=> redirect("portifolio")}
         >
-            Portifólio
+          Portifólio
         </li>
       </ul>
     </nav>
